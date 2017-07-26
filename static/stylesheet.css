@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Artifika');
+
+
+body {
+    font-family: Artifika, Arial;
+    background-color: AliceBlue;
+}
+
+.reset-button {
+    margin-top: 40px;
+}
+
+.form-style {
+    color: red;
+}
+
+.buttons {
+    color: blue;
+}
