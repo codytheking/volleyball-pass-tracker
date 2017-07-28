@@ -7,6 +7,8 @@ This is a simple web app that keeps track of the average passing score.
 ### Technical Details
 
 Backend: Python using Flask microframework.
+
 Frontend: HTML5 with Javascript for button presses/ logic and Bootstrap for CSS.
+
 Hosting: [PythonAnywhere](https://pythonanywhere.com/)
 
