@@ -9,19 +9,29 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Artifika" rel="stylesheet">
 
-    <title>Average Calculator by Cody King</title>
+    <title>VBall Pass Calc - Cody King</title>
 
     <script type="text/javascript" src="/static/calc.js"></script>
 </head>
 
 <body style="background-color: AliceBlue">
     <div class="form-style" style="margin: 20px 8px 20px 8px; font-family: Artifika, Arial">
-        <h2 style="text-align: center; margin-bottom: 12px;">Choose an integer to add to the total.</h2>
+        <h2 style="text-align: center; margin-bottom: 30px;">Choose the pass value to add to the total.</h2>
         <form>
-            <input type="Button" class="btn btn-large" style="padding:30px; margin:0px 8px 0px 0px; width: 22%;" value="0" onClick="avg(0);"></input>
-            <input type="Button" class="btn btn-large" style="padding:30px; margin:0px 8px 0px 0px; width: 22%;" value="1" onClick="avg(1);"></input>
-            <input type="Button" class="btn btn-large" style="padding:30px; margin:0px 8px 0px 0px; width: 22%;" value="2" onClick="avg(2);"></input>
-            <input type="Button" class="btn btn-large" style="padding:30px; margin:0px 0px 0px 0px; width: 22%;" value="3" onClick="avg(3);"></input>
+            <div class="row">
+                <div class="col-xs-3">
+                    <input type="Button" class="btn btn-block btn-primary btn-large" value="0" onClick="avg(0);"></input>
+                </div>
+                <div class="col-xs-3">
+                    <input type="Button" class="btn btn-block btn-primary btn-large" value="1" onClick="avg(1);"></input>
+                </div>
+                <div class="col-xs-3">
+                    <input type="Button" class="btn btn-block btn-primary btn-large" value="2" onClick="avg(2);"></input>
+                </div>
+                <div class="col-xs-3">
+                    <input type="Button" class="btn btn-block btn-primary btn-large" value="3" onClick="avg(3);"></input>
+                </div>
+            </div>
 
             <p id="answer" style="margin:12px 0px 12px 5px;"></p>
             <p id="zeros" style="margin-left:5px"></p>
@@ -29,8 +39,10 @@
             <p id="twos" style="margin-left:5px"></p>
             <p id="threes" style="margin-left:5px"></p>
 
-            <input type="Button" class="btn btn-large" style="padding:10px;" value="Reset" onClick="resetTotal()">
+            <div style="margin-top: 25px;">
+                <input type="Button" class="btn btn-danger btn-large" style="padding:10px;" value="Reset" onClick="resetTotal()">
+            </div>
         </form>
-    </div>
-</body>
-</html>
+        </div>
+    </body>
+    </html>
